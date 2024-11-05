@@ -1,0 +1,155 @@
+[
+  {
+    "ContainingType": "RPG_API.Controllers.AccountController",
+    "Method": "Get",
+    "RelativePath": "account",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RPG_API.Controllers.AccountController",
+    "Method": "Delete",
+    "RelativePath": "account/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RPG_API.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "account/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RPG_API.ViewModel.UserLoginViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RPG_API.Controllers.AccountController",
+    "Method": "Signup",
+    "RelativePath": "account/signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RPG_API.ViewModel.UserSignupViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RPG_API.Controllers.AccountController",
+    "Method": "Put",
+    "RelativePath": "account/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RPG_API.ViewModel.UserUpdateViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RPG_API.Controllers.HabilidadeController",
+    "Method": "GetAsync",
+    "RelativePath": "habilidade/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RPG_API.Controllers.HabilidadeController",
+    "Method": "GetAllAsync",
+    "RelativePath": "habilidades",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RPG_API.Controllers.HabilidadeController",
+    "Method": "PostAsync",
+    "RelativePath": "habilidades",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RPG_API.ViewModel.CreateHabilidadeViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RPG_API.Controllers.HabilidadeController",
+    "Method": "PutAsync",
+    "RelativePath": "habilidades/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "RPG_API.ViewModel.UpdateHabilidadeViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RPG_API.Controllers.HabilidadeController",
+    "Method": "Delete",
+    "RelativePath": "habilidades/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "iuqqTDg/0FxUFuYdBdR7PgzQ958bcYJbRwGX627nfHo=",
+  "Source": "RPG API",
+  "BasePath": "_content/RPG API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RPG API\\wwwroot",
+      "Source": "RPG API",
+      "ContentRoot": "C:\\Users\\raraf\\Desktop\\Desafio\\RPG API\\RPG API\\wwwroot\\",
+      "BasePath": "_content/RPG API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\raraf\\Desktop\\Desafio\\RPG API\\RPG API\\wwwroot\\Images\\Blank.png",
+      "SourceId": "RPG API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\raraf\\Desktop\\Desafio\\RPG API\\RPG API\\wwwroot\\",
+      "BasePath": "_content/RPG API",
+      "RelativePath": "Images/Blank.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Blank.png"
+    },
+    {
+      "Identity": "C:\\Users\\raraf\\Desktop\\Desafio\\RPG API\\RPG API\\wwwroot\\Images\\Config icon (3).png",
+      "SourceId": "RPG API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\raraf\\Desktop\\Desafio\\RPG API\\RPG API\\wwwroot\\",
+      "BasePath": "_content/RPG API",
+      "RelativePath": "Images/Config icon (3).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Config icon (3).png"
+    }
+  ]
+}

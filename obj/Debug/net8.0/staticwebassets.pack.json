@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\raraf\\Desktop\\Desafio\\RPG API\\RPG API\\wwwroot\\Images\\Blank.png",
+      "PackagePath": "staticwebassets\\Images\\Blank.png"
+    },
+    {
+      "Id": "C:\\Users\\raraf\\Desktop\\Desafio\\RPG API\\RPG API\\wwwroot\\Images\\Config icon (3).png",
+      "PackagePath": "staticwebassets\\Images\\Config icon (3).png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RPG API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RPG API.props",
+      "PackagePath": "build\\RPG API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RPG API.props",
+      "PackagePath": "buildMultiTargeting\\RPG API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RPG API.props",
+      "PackagePath": "buildTransitive\\RPG API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
