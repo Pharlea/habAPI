@@ -29,9 +29,9 @@ namespace RPG_API.Controllers
                 var token = tokenService.CreateToken(user);
                 return Ok(new { token = token });
             }
-            catch
+            catch (Exeption e)
             {
-                return StatusCode(500, new { message = "Falha interna no servidor" });
+                return StatusCode(500, new { message = "Falha interna no servidor: " + e });
             }
         }
 
