@@ -1,22 +1,24 @@
-# Etapa de build
+# Etapa 1: Build
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
 WORKDIR /app
 
-# Copia o .csproj e restaura dependências
+# Copiar o arquivo .csproj e restaurar dependências
 COPY *.csproj ./
 RUN dotnet restore
 
-# Copia o restante dos arquivos e compila
+# Publicar a aplicação
 COPY . ./
 RUN dotnet publish -c Release -o out
 
-# Etapa de runtime
+# Etapa 2: Criar a imagem final
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
+
+# Copiar os arquivos publicados do build
 COPY --from=build-env /app/out .
 
-# Expõe a porta em que a aplicação ASP.NET Core escuta
+# Expor a porta em que a aplicação vai rodar
 EXPOSE 80
 
-# Comando para iniciar a aplicação
-ENTRYPOINT ["dotnet", "RPG API.dll"]
+# Definir o comando para iniciar a aplicação
+ENTRYPOINT ["dotnet", "RPG_API.dll"]
