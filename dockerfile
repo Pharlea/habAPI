@@ -19,4 +19,4 @@ COPY --from=build-env /app/out .
 EXPOSE 80
 
 # Comando para iniciar a aplicação
-ENTRYPOINT ["dotnet", "habAPI.dll"]
+ENTRYPOINT ["dotnet", "RPG API.dll"]
